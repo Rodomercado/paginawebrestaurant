@@ -1,0 +1,527 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu {
+    background: #fff;
+    padding: 9px 20px !important;
+}
+
+.menu .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000 !important;
+}
+
+/* INTRO */
+
+#intro {
+    text-align: center;
+    background: url(imagenes/back.jpg);
+    height: 60vh;
+    margin-top: -60px;
+    background-size: cover;
+    background-position: 57% 48%;
+}
+
+#intro h1 {
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 60px;
+}
+
+#intro p {
+    color: #bfbfbf;
+    font-size: 18px;
+    line-height: 36px;
+    width: 60%;
+    margin: auto;
+}
+
+#intro .ver-menu { 
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px;
+    background: transparent;
+}
+
+#intro .reservar {
+    color: #fff;
+    padding: 9px; 
+    background: #c39d63;
+}
+
+#intro .botones {
+    margin-top: 50px;
+}
+
+#intro .botones a {
+    margin-right: 20px;
+    padding: 9px 23px;
+}
+
+/* OUR STORY */
+
+#our-story {
+    padding: 90px 0;
+}
+
+#our-story .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.our-story {
+    color: #bfbfbf;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+hr {
+    width: 40px;
+    float: left;
+    border-color: #c29d63;
+}
+
+#our-story h2, #testimonios h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: 300;
+}
+
+#our-story .texto, #testimonios .texto {
+    font-size: 17px;
+    color: #939393;
+    line-height: 30px;
+    width: 88%;
+}
+
+#our-story .izquierda {
+    width: 45%;
+}
+
+#our-story .derecha img {
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+/* MENU */
+
+#menu {
+    background: #1f1f1f;
+    margin-bottom: 100px;
+}
+
+#menu .foto {
+    background: url(imagenes/cangrejo.png);
+    width: 300px;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu .linea1 div, #menu .linea2 div {
+    display: inline-block;
+    width: 33.1%;
+}
+
+#menu .linea1, #menu .linea2 {
+    background: #fff;
+    text-align: center;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu .precio {
+    color: #c29d62;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#menu .titulo {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#menu .parrafo {
+    color: #939393;
+    line-height: 30px;
+}
+
+#menu .foto-hongos {
+    background: url(imagenes/hongos.png);
+    width: 300px;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -10px;
+    left: -16px;
+}
+
+#menu .foto-pez {
+    background: url(imagenes/pez.png);
+    width: 300px;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -10px;
+    right: -16px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu .texto {
+    position: relative;
+    top: -30px;
+}
+
+#menu .linea2 {
+    height: 275px;
+}
+
+/* TESTIMONIOS */
+
+#testimonios {
+    text-align: center;
+    background: #f7f7f7;
+    padding: 90px 0; 
+}
+
+#testimonios .titulo {
+    color: #bfbfbf;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 92px;
+}
+
+
+#testimonios hr {
+    width: 40px;
+    float: none;
+    border-color: #c29d62;
+}
+
+.contenedor-testimonios {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    width: 25%;
+    text-align: left;
+}
+
+.testimonio img {
+    width: 55%;
+}
+
+#testimonios .contenedor {
+    max-width: 1150;
+}
+
+.nombre {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/*CONTACTO*/
+
+#contacto {
+    background: url(imagenes/restaurant.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 90px 0;
+}
+
+#contacto .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#contacto .izquierda, .derecha {
+    background: #1f1f1f;
+    padding: 77px 29px;
+}
+
+#contacto .izquierda {
+    margin-right: 40px;
+}
+
+#contacto ul {
+    border-bottom: 2px solid #c29d62;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+ul#tercero  {
+    border-bottom: 0px;
+}
+
+#contacto ul li {
+    font-size: 15px;
+}
+
+#contacto h2 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#contacto ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+#contacto a {
+    color: #fff;
+    padding: 9px;
+    background: #c39d63;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#contacto h3 {
+    font-size: 23px;
+    font-weight: 100;
+    margin: 0;
+}
+
+#contacto .derecha p {
+    opacity: 0.8;
+    width: 70%;
+    margin: auto;
+}
+
+#contacto .derecha a {
+    padding: 9px 12px;
+}
+
+#contacto h3.news {
+    margin-top: 67px;
+}
+
+#contacto form{
+    margin-top: 25px;
+}
+
+input[type=text] {
+    width: 72%;
+    border: 0;
+    background: #111111;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: #cdcdcd;
+}
+
+:-ms-input-placeholder {
+    color: #cdcdcd;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 79%;
+    margin: auto;
+    border: 0;
+    background: #c29d63;
+    color: #fff;
+    padding: 11px 0;
+    font-size: 16px;
+}
+
+#contacto .izquierda, #contacto .derecha {
+    width: 35%;
+}
+
+#contacto .derecha {
+    padding: 99px 0;
+    width: 40%;
+}
+
+.derecha, .izquierda {
+    padding-top: 35px !important;
+}
+
+h3.new {
+    margin-top: 69px !important;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        background: rgb(226, 226, 226);
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+        z-index: 1000;
+        margin-right: -14px;
+    }
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    #intro h1 {
+        font-size: 31px;
+    }
+
+    #intro p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 29px;
+    }
+
+    #intro {
+        margin-top: -36px;
+    }
+
+    #our-story .contenedor {
+        flex-direction: column;
+    }
+
+    #our-story .izquierda {
+        width: 100%;
+    }
+
+    #our-story .derecha img {
+        width: 100%;
+        margin-bottom: -50px;
+    }
+
+    #menu .linea1 div, #menu .linea2 div {
+        display: block;
+        width: 100%;
+    }
+
+    #menu #texto-2 {
+        position: relative;
+        top: 18px;
+    }
+
+    #menu .linea2 .foto-hongos {
+        width: 100% !important;
+        top: 40px;
+        left: 0px;
+    }
+
+    #menu {
+        height: 1642px !important;
+    }
+
+    #menu #ultimo-texto {
+        width: 100% !important;
+        top: 52px;
+    }
+
+    #menu .linea2 .foto-pez {
+        width: 100% !important;
+        top: 55px;
+        left: 0px;
+    }
+
+    #menu .linea2 {
+        height: 625px;
+    }
+
+    .contenedor-testimonios {
+        flex-direction: column;
+    }
+
+    .testimonio {
+        width: 100%;
+    }
+
+    #contacto .contenedor {
+        flex-direction: column;
+    }
+
+    #contacto .izquierda, #contacto .derecha {
+        width: 82%;
+    }
+
+    #contacto .derecha {
+        width: 99% !important;
+        margin-top: 42px;
+    }
+
+    h3#contactanos {
+        margin-top: 39px;
+    }
+
+    #contacto h3 {
+        font-size: 23px;
+        font-weight: 100;
+        margin: 0;
+        margin-top: 56px;
+    }
+
+    a.ver-menu {
+        display: none;
+    }
+}
